@@ -12,7 +12,7 @@ public class MyContact implements MyConcADT {
     MylinkedList<String> contactNumbers = new MylinkedList<>();
 
     private String getFirstName() {
-        System.out.println("Please Enter the name of the Person");
+        System.out.println("Please Enter the name of Person");
         System.out.print("FirstName: ");
         String firstName = sc.next();
         return firstName;
