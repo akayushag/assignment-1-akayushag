@@ -18,7 +18,7 @@ public class Main {
                     "Press 5 to exit program ");
             String str = sc.next();
             if (str.length() > 1) {
-                System.out.println("Invaild Option");
+                System.out.println("Option is Invalid");
                 continue;
             }
             char choice = str.charAt(0);
@@ -37,11 +37,11 @@ public class Main {
                     break;
                 case '5':
                     System.out.println("Thank You");
-                    System.out.println("Have a great Day");
+                    System.out.println("Have a good Day");
                     response = false;
                     break;
                 default:
-                    System.out.println("Invaild Option");
+                    System.out.println("Option is Invalid");
             }
 
         } while (response);
